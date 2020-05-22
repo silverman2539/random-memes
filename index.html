@@ -1,0 +1,1196 @@
+<html>
+	<head>
+		<title>66 Memes!</title>
+		<style>
+			body
+			{
+				font-size: 30;
+				border-style: solid;
+				padding: 25;
+				text-align: center;
+				background-color: gainsboro;
+				border-color: dimgray;
+				color: dimgray;
+			}
+			.red
+			{
+				background-color: mistyrose;
+				border-color: crimson;
+				color: crimson;
+			}
+			.orange
+			{
+				background-color: oldlace;
+				border-color: tomato;
+				color: tomato;
+			}
+			.yellow
+			{
+				background-color: ivory;
+				border-color: gold;
+				color: gold;
+			}
+			.green
+			{
+				background-color: honeydew;
+				border-color: limegreen;
+				color: limegreen;
+			}
+			.blue
+			{
+				background-color: aliceblue;
+				border-color: cornflowerblue;
+				color: cornflowerblue;
+			}
+			.purple
+			{
+				background-color: ghostwhite;
+				border-color: mediumorchid;
+				color: mediumorchid;
+			}
+			button
+			{
+				font-size: 20;
+				border-style: solid;
+				background-color: whitesmoke;
+				border-color: dimgray;
+				color: dimgray;
+			}
+			button:hover
+			{
+				transition: 0.5s;
+				opacity: 50%;
+			}
+			button:disabled
+			{
+				opacity: 25%;
+			}
+			img
+			{
+				width: 375;
+				border-style: solid;
+			}
+		</style>
+	</head>
+	
+	<body class="" id="rainbow">
+		<div id="start">
+			<p>66 Memes!</p>
+			<p>Press the button the see a meme!</p>
+			<p>The numbers at the top show which memes you've already seen!</p>
+		</div>
+		<div id="numbers" style="display:none;">
+			<button id="1" disabled>1</button>
+			<button id="2" disabled>2</button>
+			<button id="3" disabled>3</button>
+			<button id="4" disabled>4</button>
+			<button id="5" disabled>5</button>
+			<button id="6" disabled>6</button>
+			<button id="7" disabled>7</button>
+			<button id="8" disabled>8</button>
+			<button id="9" disabled>9</button>
+			<button id="10" disabled>10</button>
+			<button id="11" disabled>11</button>
+			<br>
+			<button id="12" disabled>12</button>
+			<button id="13" disabled>13</button>
+			<button id="14" disabled>14</button>
+			<button id="15" disabled>15</button>
+			<button id="16" disabled>16</button>
+			<button id="17" disabled>17</button>
+			<button id="18" disabled>18</button>
+			<button id="19" disabled>19</button>
+			<button id="20" disabled>20</button>
+			<button id="21" disabled>21</button>
+			<button id="22" disabled>22</button>
+			<br>
+			<button id="23" disabled>23</button>
+			<button id="24" disabled>24</button>
+			<button id="25" disabled>25</button>
+			<button id="26" disabled>26</button>
+			<button id="27" disabled>27</button>
+			<button id="28" disabled>28</button>
+			<button id="29" disabled>29</button>
+			<button id="30" disabled>30</button>
+			<button id="31" disabled>31</button>
+			<button id="32" disabled>32</button>
+			<button id="33" disabled>33</button>
+			<br>
+			<button id="34" disabled>34</button>
+			<button id="35" disabled>35</button>
+			<button id="36" disabled>36</button>
+			<button id="37" disabled>37</button>
+			<button id="38" disabled>38</button>
+			<button id="39" disabled>39</button>
+			<button id="40" disabled>40</button>
+			<button id="41" disabled>41</button>
+			<button id="42" disabled>42</button>
+			<button id="43" disabled>43</button>
+			<button id="44" disabled>44</button>
+			<br>
+			<button id="45" disabled>45</button>
+			<button id="46" disabled>46</button>
+			<button id="47" disabled>47</button>
+			<button id="48" disabled>48</button>
+			<button id="49" disabled>49</button>
+			<button id="50" disabled>50</button>
+			<button id="51" disabled>51</button>
+			<button id="52" disabled>52</button>
+			<button id="53" disabled>53</button>
+			<button id="54" disabled>54</button>
+			<button id="55" disabled>55</button>
+			<br>
+			<button id="56" disabled>56</button>
+			<button id="57" disabled>57</button>
+			<button id="58" disabled>58</button>
+			<button id="59" disabled>59</button>
+			<button id="60" disabled>60</button>
+			<button id="61" disabled>61</button>
+			<button id="62" disabled>62</button>
+			<button id="63" disabled>63</button>
+			<button id="64" disabled>64</button>
+			<button id="65" disabled>65</button>
+			<button id="66" disabled>66</button>
+		</div>
+		
+		<br><br>
+		<button onclick="Meme()">Show a meme!</button>
+		<button onclick="Clear()">Clear Data</button>
+		<br><br>
+		
+		<img src="meme-page-001.jpg" id="meme1" style="display:none;">
+		<img src="meme-page-002.jpg" id="meme2" style="display:none;">
+		<img src="meme-page-003.jpg" id="meme3" style="display:none;">
+		<img src="meme-page-004.jpg" id="meme4" style="display:none;">
+		<img src="meme-page-005.jpg" id="meme5" style="display:none;">
+		<img src="meme-page-006.jpg" id="meme6" style="display:none;">
+		<img src="meme-page-007.jpg" id="meme7" style="display:none;">
+		<img src="meme-page-008.jpg" id="meme8" style="display:none;">
+		<img src="meme-page-009.jpg" id="meme9" style="display:none;">
+		<img src="meme-page-010.jpg" id="meme10" style="display:none;">
+		<img src="meme-page-011.jpg" id="meme11" style="display:none;">
+		<img src="meme-page-012.jpg" id="meme12" style="display:none;">
+		<img src="meme-page-013.jpg" id="meme13" style="display:none;">
+		<img src="meme-page-014.jpg" id="meme14" style="display:none;">
+		<img src="meme-page-015.jpg" id="meme15" style="display:none;">
+		<img src="meme-page-016.jpg" id="meme16" style="display:none;">
+		<img src="meme-page-017.jpg" id="meme17" style="display:none;">
+		<img src="meme-page-018.jpg" id="meme18" style="display:none;">
+		<img src="meme-page-019.jpg" id="meme19" style="display:none;">
+		<img src="meme-page-020.jpg" id="meme20" style="display:none;">
+		<img src="meme-page-021.jpg" id="meme21" style="display:none;">
+		<img src="meme-page-022.jpg" id="meme22" style="display:none;">
+		<img src="meme-page-023.jpg" id="meme23" style="display:none;">
+		<img src="meme-page-024.jpg" id="meme24" style="display:none;">
+		<img src="meme-page-025.jpg" id="meme25" style="display:none;">
+		<img src="meme-page-026.jpg" id="meme26" style="display:none;">
+		<img src="meme-page-027.jpg" id="meme27" style="display:none;">
+		<img src="meme-page-028.jpg" id="meme28" style="display:none;">
+		<img src="meme-page-029.jpg" id="meme29" style="display:none;">
+		<img src="meme-page-030.jpg" id="meme30" style="display:none;">
+		<img src="meme-page-031.jpg" id="meme31" style="display:none;">
+		<img src="meme-page-032.jpg" id="meme32" style="display:none;">
+		<img src="meme-page-033.jpg" id="meme33" style="display:none;">
+		<img src="meme-page-034.jpg" id="meme34" style="display:none;">
+		<img src="meme-page-035.jpg" id="meme35" style="display:none;">
+		<img src="meme-page-036.jpg" id="meme36" style="display:none;">
+		<img src="meme-page-037.jpg" id="meme37" style="display:none;">
+		<img src="meme-page-038.jpg" id="meme38" style="display:none;">
+		<img src="meme-page-039.jpg" id="meme39" style="display:none;">
+		<img src="meme-page-040.jpg" id="meme40" style="display:none;">
+		<img src="meme-page-041.jpg" id="meme41" style="display:none;">
+		<img src="meme-page-042.jpg" id="meme42" style="display:none;">
+		<img src="meme-page-043.jpg" id="meme43" style="display:none;">
+		<img src="meme-page-044.jpg" id="meme44" style="display:none;">
+		<img src="meme-page-045.jpg" id="meme45" style="display:none;">
+		<img src="meme-page-046.jpg" id="meme46" style="display:none;">
+		<img src="meme-page-047.jpg" id="meme47" style="display:none;">
+		<img src="meme-page-048.jpg" id="meme48" style="display:none;">
+		<img src="meme-page-049.jpg" id="meme49" style="display:none;">
+		<img src="meme-page-050.jpg" id="meme50" style="display:none;">
+		<img src="meme-page-051.jpg" id="meme51" style="display:none;">
+		<img src="meme-page-052.jpg" id="meme52" style="display:none;">
+		<img src="meme-page-053.jpg" id="meme53" style="display:none;">
+		<img src="meme-page-054.jpg" id="meme54" style="display:none;">
+		<img src="meme-page-055.jpg" id="meme55" style="display:none;">
+		<img src="meme-page-056.jpg" id="meme56" style="display:none;">
+		<img src="meme-page-057.jpg" id="meme57" style="display:none;">
+		<img src="meme-page-058.jpg" id="meme58" style="display:none;">
+		<img src="meme-page-059.jpg" id="meme59" style="display:none;">
+		<img src="meme-page-060.jpg" id="meme60" style="display:none;">
+		<img src="meme-page-061.jpg" id="meme61" style="display:none;">
+		<img src="meme-page-062.jpg" id="meme62" style="display:none;">
+		<img src="meme-page-063.jpg" id="meme63" style="display:none;">
+		<img src="meme-page-064.jpg" id="meme64" style="display:none;">
+		<img src="meme-page-065.jpg" id="meme65" style="display:none;">
+		<img src="meme-page-066.jpg" id="meme66" style="display:none;">
+		
+		<script>
+			var color = 0;
+			
+			
+			var BUTTONS = localStorage.getItem("buttons");
+			if (BUTTONS == "showing")
+			{
+				document.getElementById("start").style.display = "none";
+				document.getElementById("numbers").style.display = "";
+			}
+			
+			
+			var COLOR = localStorage.getItem("color");
+			if (COLOR == "red")
+			{
+				document.getElementById("rainbow").className = "red";
+				color = 1;
+			}
+			else if (COLOR == "orange")
+			{
+				document.getElementById("rainbow").className = "orange";
+				color = 2;
+			}
+			else if (COLOR == "yellow")
+			{
+				document.getElementById("rainbow").className = "yellow";
+				color = 3;
+			}
+			else if (COLOR == "green")
+			{
+				document.getElementById("rainbow").className = "green";
+				color = 4;
+			}
+			else if (COLOR == "blue")
+			{
+				document.getElementById("rainbow").className = "blue";
+				color = 5;
+			}
+			else if (COLOR == "purple")
+			{
+				document.getElementById("rainbow").className = "purple";
+				color = 6;
+			}
+			
+			
+			var ONE = localStorage.getItem("one");
+			if (ONE == "seen")
+			{
+				document.getElementById("1").style.opacity = "100%";
+			}
+			
+			var TWO = localStorage.getItem("two");
+			if (TWO == "seen")
+			{
+				document.getElementById("2").style.opacity = "100%";
+			}
+			
+			var THREE = localStorage.getItem("three");
+			if (THREE == "seen")
+			{
+				document.getElementById("3").style.opacity = "100%";
+			}
+			
+			var FOUR = localStorage.getItem("four");
+			if (FOUR == "seen")
+			{
+				document.getElementById("4").style.opacity = "100%";
+			}
+			
+			var FIVE = localStorage.getItem("five");
+			if (FIVE == "seen")
+			{
+				document.getElementById("5").style.opacity = "100%";
+			}
+			
+			var SIX = localStorage.getItem("six");
+			if (SIX == "seen")
+			{
+				document.getElementById("6").style.opacity = "100%";
+			}
+			
+			var SEVEN = localStorage.getItem("seven");
+			if (SEVEN == "seen")
+			{
+				document.getElementById("7").style.opacity = "100%";
+			}
+			
+			var EIGHT = localStorage.getItem("eight");
+			if (EIGHT == "seen")
+			{
+				document.getElementById("8").style.opacity = "100%";
+			}
+			
+			var NINE = localStorage.getItem("nine");
+			if (NINE == "seen")
+			{
+				document.getElementById("9").style.opacity = "100%";
+			}
+			
+			var ONEZERO = localStorage.getItem("one-zero");
+			if (ONEZERO == "seen")
+			{
+				document.getElementById("10").style.opacity = "100%";
+			}
+			
+			var ONEONE = localStorage.getItem("one-one");
+			if (ONEONE == "seen")
+			{
+				document.getElementById("11").style.opacity = "100%";
+			}
+			
+			var ONETWO = localStorage.getItem("one-two");
+			if (ONETWO == "seen")
+			{
+				document.getElementById("12").style.opacity = "100%";
+			}
+			
+			var ONETHREE = localStorage.getItem("one-three");
+			if (ONETHREE == "seen")
+			{
+				document.getElementById("13").style.opacity = "100%";
+			}
+			
+			var ONEFOUR = localStorage.getItem("one-four");
+			if (ONEFOUR == "seen")
+			{
+				document.getElementById("14").style.opacity = "100%";
+			}
+			
+			var ONEFIVE = localStorage.getItem("one-five");
+			if (ONEFIVE == "seen")
+			{
+				document.getElementById("15").style.opacity = "100%";
+			}
+			
+			var ONESIX = localStorage.getItem("one-six");
+			if (ONESIX == "seen")
+			{
+				document.getElementById("16").style.opacity = "100%";
+			}
+			
+			var ONESEVEN = localStorage.getItem("one-seven");
+			if (ONESEVEN == "seen")
+			{
+				document.getElementById("17").style.opacity = "100%";
+			}
+			
+			var ONEEIGHT = localStorage.getItem("one-eight");
+			if (ONEEIGHT == "seen")
+			{
+				document.getElementById("18").style.opacity = "100%";
+			}
+			
+			var ONENINE = localStorage.getItem("one-nine");
+			if (ONENINE == "seen")
+			{
+				document.getElementById("19").style.opacity = "100%";
+			}
+			
+			var TWOZERO = localStorage.getItem("two-zero");
+			if (TWOZERO == "seen")
+			{
+				document.getElementById("20").style.opacity = "100%";
+			}
+			
+			var TWOONE = localStorage.getItem("two-one");
+			if (TWOONE == "seen")
+			{
+				document.getElementById("21").style.opacity = "100%";
+			}
+			
+			var TWOTWO = localStorage.getItem("two-two");
+			if (TWOTWO == "seen")
+			{
+				document.getElementById("22").style.opacity = "100%";
+			}
+			
+			var TWOTHREE = localStorage.getItem("two-three");
+			if (TWOTHREE == "seen")
+			{
+				document.getElementById("23").style.opacity = "100%";
+			}
+			
+			var TWOFOUR = localStorage.getItem("two-four");
+			if (TWOFOUR == "seen")
+			{
+				document.getElementById("24").style.opacity = "100%";
+			}
+			
+			var TWOFIVE = localStorage.getItem("two-five");
+			if (TWOFIVE == "seen")
+			{
+				document.getElementById("25").style.opacity = "100%";
+			}
+			
+			var TWOSIX = localStorage.getItem("two-six");
+			if (TWOSIX == "seen")
+			{
+				document.getElementById("26").style.opacity = "100%";
+			}
+			
+			var TWOSEVEN = localStorage.getItem("two-seven");
+			if (TWOSEVEN == "seen")
+			{
+				document.getElementById("27").style.opacity = "100%";
+			}
+			
+			var TWOEIGHT = localStorage.getItem("two-eight");
+			if (TWOEIGHT == "seen")
+			{
+				document.getElementById("28").style.opacity = "100%";
+			}
+			
+			var TWONINE = localStorage.getItem("two-nine");
+			if (TWONINE == "seen")
+			{
+				document.getElementById("29").style.opacity = "100%";
+			}
+			
+			var THREEZERO = localStorage.getItem("three-zero");
+			if (THREEZERO == "seen")
+			{
+				document.getElementById("30").style.opacity = "100%";
+			}
+			
+			var THREEONE = localStorage.getItem("three-one");
+			if (THREEONE == "seen")
+			{
+				document.getElementById("31").style.opacity = "100%";
+			}
+			
+			var THREETWO = localStorage.getItem("three-two");
+			if (THREETWO == "seen")
+			{
+				document.getElementById("32").style.opacity = "100%";
+			}
+			
+			var THREETHREE = localStorage.getItem("three-three");
+			if (THREETHREE == "seen")
+			{
+				document.getElementById("33").style.opacity = "100%";
+			}
+			
+			var THREEFOUR = localStorage.getItem("three-four");
+			if (THREEFOUR == "seen")
+			{
+				document.getElementById("34").style.opacity = "100%";
+			}
+			
+			var THREEFIVE = localStorage.getItem("three-five");
+			if (THREEFIVE == "seen")
+			{
+				document.getElementById("35").style.opacity = "100%";
+			}
+			
+			var THREESIX = localStorage.getItem("three-six");
+			if (THREESIX == "seen")
+			{
+				document.getElementById("36").style.opacity = "100%";
+			}
+			
+			var THREESEVEN = localStorage.getItem("three-seven");
+			if (THREESEVEN == "seen")
+			{
+				document.getElementById("37").style.opacity = "100%";
+			}
+			
+			var THREEEIGHT = localStorage.getItem("three-eight");
+			if (THREEEIGHT == "seen")
+			{
+				document.getElementById("38").style.opacity = "100%";
+			}
+			
+			var THREENINE = localStorage.getItem("three-nine");
+			if (THREENINE == "seen")
+			{
+				document.getElementById("39").style.opacity = "100%";
+			}
+			
+			var FOURZERO = localStorage.getItem("four-zero");
+			if (FOURZERO == "seen")
+			{
+				document.getElementById("40").style.opacity = "100%";
+			}
+			
+			var FOURONE = localStorage.getItem("four-one");
+			if (FOURONE == "seen")
+			{
+				document.getElementById("41").style.opacity = "100%";
+			}
+			
+			var FOURTWO = localStorage.getItem("four-two");
+			if (FOURTWO == "seen")
+			{
+				document.getElementById("42").style.opacity = "100%";
+			}
+			
+			var FOURTHREE = localStorage.getItem("four-three");
+			if (FOURTHREE == "seen")
+			{
+				document.getElementById("43").style.opacity = "100%";
+			}
+			
+			var FOURFOUR = localStorage.getItem("four-four");
+			if (FOURFOUR == "seen")
+			{
+				document.getElementById("44").style.opacity = "100%";
+			}
+			
+			var FOURFIVE = localStorage.getItem("four-five");
+			if (FOURFIVE == "seen")
+			{
+				document.getElementById("45").style.opacity = "100%";
+			}
+			
+			var FOURSIX = localStorage.getItem("four-six");
+			if (FOURSIX == "seen")
+			{
+				document.getElementById("46").style.opacity = "100%";
+			}
+			
+			var FOURSEVEN = localStorage.getItem("four-seven");
+			if (FOURSEVEN == "seen")
+			{
+				document.getElementById("47").style.opacity = "100%";
+			}
+			
+			var FOUREIGHT = localStorage.getItem("four-eight");
+			if (FOUREIGHT == "seen")
+			{
+				document.getElementById("48").style.opacity = "100%";
+			}
+			
+			var FOURNINE = localStorage.getItem("four-nine");
+			if (FOURNINE == "seen")
+			{
+				document.getElementById("49").style.opacity = "100%";
+			}
+			
+			var FIVEZERO = localStorage.getItem("five-zero");
+			if (FIVEZERO == "seen")
+			{
+				document.getElementById("50").style.opacity = "100%";
+			}
+			
+			var FIVEONE = localStorage.getItem("five-one");
+			if (FIVEONE == "seen")
+			{
+				document.getElementById("51").style.opacity = "100%";
+			}
+			
+			var FIVETWO = localStorage.getItem("five-two");
+			if (FIVETWO == "seen")
+			{
+				document.getElementById("52").style.opacity = "100%";
+			}
+			
+			var FIVETHREE = localStorage.getItem("five-three");
+			if (FIVETHREE == "seen")
+			{
+				document.getElementById("53").style.opacity = "100%";
+			}
+			
+			var FIVEFOUR = localStorage.getItem("five-four");
+			if (FIVEFOUR == "seen")
+			{
+				document.getElementById("54").style.opacity = "100%";
+			}
+			
+			var FIVEFIVE = localStorage.getItem("five-five");
+			if (FIVEFIVE == "seen")
+			{
+				document.getElementById("55").style.opacity = "100%";
+			}
+			
+			var FIVESIX = localStorage.getItem("five-six");
+			if (FIVESIX == "seen")
+			{
+				document.getElementById("56").style.opacity = "100%";
+			}
+			
+			var FIVESEVEN = localStorage.getItem("five-seven");
+			if (FIVESEVEN == "seen")
+			{
+				document.getElementById("57").style.opacity = "100%";
+			}
+			
+			var FIVEEIGHT = localStorage.getItem("five-eight");
+			if (FIVEEIGHT == "seen")
+			{
+				document.getElementById("58").style.opacity = "100%";
+			}
+			
+			var FIVENINE = localStorage.getItem("five-nine");
+			if (FIVENINE == "seen")
+			{
+				document.getElementById("59").style.opacity = "100%";
+			}
+			
+			var SIXZERO = localStorage.getItem("six-zero");
+			if (SIXZERO == "seen")
+			{
+				document.getElementById("60").style.opacity = "100%";
+			}
+			
+			var SIXONE = localStorage.getItem("six-one");
+			if (SIXONE == "seen")
+			{
+				document.getElementById("61").style.opacity = "100%";
+			}
+			
+			var SIXTWO = localStorage.getItem("six-two");
+			if (SIXTWO == "seen")
+			{
+				document.getElementById("62").style.opacity = "100%";
+			}
+			
+			var SIXTHREE = localStorage.getItem("six-three");
+			if (SIXTHREE == "seen")
+			{
+				document.getElementById("63").style.opacity = "100%";
+			}
+			
+			var SIXFOUR = localStorage.getItem("six-four");
+			if (SIXFOUR == "seen")
+			{
+				document.getElementById("64").style.opacity = "100%";
+			}
+			
+			var SIXFIVE = localStorage.getItem("six-five");
+			if (SIXFIVE == "seen")
+			{
+				document.getElementById("65").style.opacity = "100%";
+			}
+			
+			var SIXSIX = localStorage.getItem("six-six");
+			if (SIXSIX == "seen")
+			{
+				document.getElementById("66").style.opacity = "100%";
+			}
+			
+			
+			
+			function Meme()
+			{
+				document.getElementById("meme1").style.display = "none";
+				document.getElementById("meme2").style.display = "none";
+				document.getElementById("meme3").style.display = "none";
+				document.getElementById("meme4").style.display = "none";
+				document.getElementById("meme5").style.display = "none";
+				document.getElementById("meme6").style.display = "none";
+				document.getElementById("meme7").style.display = "none";
+				document.getElementById("meme8").style.display = "none";
+				document.getElementById("meme9").style.display = "none";
+				document.getElementById("meme10").style.display = "none";
+				document.getElementById("meme11").style.display = "none";
+				document.getElementById("meme12").style.display = "none";
+				document.getElementById("meme13").style.display = "none";
+				document.getElementById("meme14").style.display = "none";
+				document.getElementById("meme15").style.display = "none";
+				document.getElementById("meme16").style.display = "none";
+				document.getElementById("meme17").style.display = "none";
+				document.getElementById("meme18").style.display = "none";
+				document.getElementById("meme19").style.display = "none";
+				document.getElementById("meme20").style.display = "none";
+				document.getElementById("meme21").style.display = "none";
+				document.getElementById("meme22").style.display = "none";
+				document.getElementById("meme23").style.display = "none";
+				document.getElementById("meme24").style.display = "none";
+				document.getElementById("meme25").style.display = "none";
+				document.getElementById("meme26").style.display = "none";
+				document.getElementById("meme27").style.display = "none";
+				document.getElementById("meme28").style.display = "none";
+				document.getElementById("meme29").style.display = "none";
+				document.getElementById("meme30").style.display = "none";
+				document.getElementById("meme31").style.display = "none";
+				document.getElementById("meme32").style.display = "none";
+				document.getElementById("meme33").style.display = "none";
+				document.getElementById("meme34").style.display = "none";
+				document.getElementById("meme35").style.display = "none";
+				document.getElementById("meme36").style.display = "none";
+				document.getElementById("meme37").style.display = "none";
+				document.getElementById("meme38").style.display = "none";
+				document.getElementById("meme39").style.display = "none";
+				document.getElementById("meme40").style.display = "none";
+				document.getElementById("meme41").style.display = "none";
+				document.getElementById("meme42").style.display = "none";
+				document.getElementById("meme43").style.display = "none";
+				document.getElementById("meme44").style.display = "none";
+				document.getElementById("meme45").style.display = "none";
+				document.getElementById("meme46").style.display = "none";
+				document.getElementById("meme47").style.display = "none";
+				document.getElementById("meme48").style.display = "none";
+				document.getElementById("meme49").style.display = "none";
+				document.getElementById("meme50").style.display = "none";
+				document.getElementById("meme51").style.display = "none";
+				document.getElementById("meme52").style.display = "none";
+				document.getElementById("meme53").style.display = "none";
+				document.getElementById("meme54").style.display = "none";
+				document.getElementById("meme55").style.display = "none";
+				document.getElementById("meme56").style.display = "none";
+				document.getElementById("meme57").style.display = "none";
+				document.getElementById("meme58").style.display = "none";
+				document.getElementById("meme59").style.display = "none";
+				document.getElementById("meme60").style.display = "none";
+				document.getElementById("meme61").style.display = "none";
+				document.getElementById("meme62").style.display = "none";
+				document.getElementById("meme63").style.display = "none";
+				document.getElementById("meme64").style.display = "none";
+				document.getElementById("meme65").style.display = "none";
+				document.getElementById("meme66").style.display = "none";
+				
+				localStorage.setItem("buttons", "showing");
+				document.getElementById("start").style.display = "none";
+				document.getElementById("numbers").style.display = "";
+				
+				var random = Math.floor(Math.random() * 66);
+				var meme = random + 1;
+				
+				if (color == 0)
+				{
+					document.getElementById("rainbow").className = "red";
+					color = 1;
+					localStorage.setItem("color", "red");
+				}
+				else if (color == 1)
+				{
+					document.getElementById("rainbow").className = "orange";
+					color = 2;
+					localStorage.setItem("color", "orange");
+				}
+				else if (color == 2)
+				{
+					document.getElementById("rainbow").className = "yellow";
+					color = 3;
+					localStorage.setItem("color", "yellow");
+				}
+				else if (color == 3)
+				{
+					document.getElementById("rainbow").className = "green";
+					color = 4;
+					localStorage.setItem("color", "green");
+				}
+				else if (color == 4)
+				{
+					document.getElementById("rainbow").className = "blue";
+					color = 5;
+					localStorage.setItem("color", "blue");
+				}
+				else if (color == 5)
+				{
+					document.getElementById("rainbow").className = "purple";
+					color = 6;
+					localStorage.setItem("color", "purple");
+				}
+				else if (color == 6)
+				{
+					document.getElementById("rainbow").className = "red";
+					color = 1;
+					localStorage.setItem("color", "red");
+				}
+				
+				if (meme == 1)
+				{
+					document.getElementById("1").style.opacity = "100%";
+					localStorage.setItem("one", "seen");
+					document.getElementById("meme1").style.display = "";
+				}
+				if (meme == 2)
+				{
+					document.getElementById("2").style.opacity = "100%";
+					localStorage.setItem("two", "seen");
+					document.getElementById("meme2").style.display = "";
+				}
+				if (meme == 3)
+				{
+					document.getElementById("3").style.opacity = "100%";
+					localStorage.setItem("three", "seen");
+					document.getElementById("meme3").style.display = "";
+				}
+				if (meme == 4)
+				{
+					document.getElementById("4").style.opacity = "100%";
+					localStorage.setItem("four", "seen");
+					document.getElementById("meme4").style.display = "";
+				}
+				if (meme == 5)
+				{
+					document.getElementById("5").style.opacity = "100%";
+					localStorage.setItem("five", "seen");
+					document.getElementById("meme5").style.display = "";
+				}
+				if (meme == 6)
+				{
+					document.getElementById("6").style.opacity = "100%";
+					localStorage.setItem("six", "seen");
+					document.getElementById("meme6").style.display = "";
+				}
+				if (meme == 7)
+				{
+					document.getElementById("7").style.opacity = "100%";
+					localStorage.setItem("seven", "seen");
+					document.getElementById("meme7").style.display = "";
+				}
+				if (meme == 8)
+				{
+					document.getElementById("8").style.opacity = "100%";
+					localStorage.setItem("eight", "seen");
+					document.getElementById("meme8").style.display = "";
+				}
+				if (meme == 9)
+				{
+					document.getElementById("9").style.opacity = "100%";
+					localStorage.setItem("nine", "seen");
+					document.getElementById("meme9").style.display = "";
+				}
+				if (meme == 10)
+				{
+					document.getElementById("10").style.opacity = "100%";
+					localStorage.setItem("one-zero", "seen");
+					document.getElementById("meme10").style.display = "";
+				}
+				if (meme == 11)
+				{
+					document.getElementById("11").style.opacity = "100%";
+					localStorage.setItem("one-one", "seen");
+					document.getElementById("meme11").style.display = "";
+				}
+				if (meme == 12)
+				{
+					document.getElementById("12").style.opacity = "100%";
+					localStorage.setItem("one-two", "seen");
+					document.getElementById("meme12").style.display = "";
+				}
+				if (meme == 13)
+				{
+					document.getElementById("13").style.opacity = "100%";
+					localStorage.setItem("one-three", "seen");
+					document.getElementById("meme13").style.display = "";
+				}
+				if (meme == 14)
+				{
+					document.getElementById("14").style.opacity = "100%";
+					localStorage.setItem("one-four", "seen");
+					document.getElementById("meme14").style.display = "";
+				}
+				if (meme == 15)
+				{
+					document.getElementById("15").style.opacity = "100%";
+					localStorage.setItem("one-five", "seen");
+					document.getElementById("meme15").style.display = "";
+				}
+				if (meme == 16)
+				{
+					document.getElementById("16").style.opacity = "100%";
+					localStorage.setItem("one-six", "seen");
+					document.getElementById("meme16").style.display = "";
+				}
+				if (meme == 17)
+				{
+					document.getElementById("17").style.opacity = "100%";
+					localStorage.setItem("one-seven", "seen");
+					document.getElementById("meme17").style.display = "";
+				}
+				if (meme == 18)
+				{
+					document.getElementById("18").style.opacity = "100%";
+					localStorage.setItem("one-eight", "seen");
+					document.getElementById("meme18").style.display = "";
+				}
+				if (meme == 19)
+				{
+					document.getElementById("19").style.opacity = "100%";
+					localStorage.setItem("one-nine", "seen");
+					document.getElementById("meme19").style.display = "";
+				}
+				if (meme == 20)
+				{
+					document.getElementById("20").style.opacity = "100%";
+					localStorage.setItem("two-zero", "seen");
+					document.getElementById("meme20").style.display = "";
+				}
+				if (meme == 21)
+				{
+					document.getElementById("21").style.opacity = "100%";
+					localStorage.setItem("two-one", "seen");
+					document.getElementById("meme21").style.display = "";
+				}
+				if (meme == 22)
+				{
+					document.getElementById("22").style.opacity = "100%";
+					localStorage.setItem("two-two", "seen");
+					document.getElementById("meme22").style.display = "";
+				}
+				if (meme == 23)
+				{
+					document.getElementById("23").style.opacity = "100%";
+					localStorage.setItem("two-three", "seen");
+					document.getElementById("meme23").style.display = "";
+				}
+				if (meme == 24)
+				{
+					document.getElementById("24").style.opacity = "100%";
+					localStorage.setItem("two-four", "seen");
+					document.getElementById("meme24").style.display = "";
+				}
+				if (meme == 25)
+				{
+					document.getElementById("25").style.opacity = "100%";
+					localStorage.setItem("two-five", "seen");
+					document.getElementById("meme25").style.display = "";
+				}
+				if (meme == 26)
+				{
+					document.getElementById("26").style.opacity = "100%";
+					localStorage.setItem("two-six", "seen");
+					document.getElementById("meme26").style.display = "";
+				}
+				if (meme == 27)
+				{
+					document.getElementById("27").style.opacity = "100%";
+					localStorage.setItem("two-seven", "seen");
+					document.getElementById("meme27").style.display = "";
+				}
+				if (meme == 28)
+				{
+					document.getElementById("28").style.opacity = "100%";
+					localStorage.setItem("two-eight", "seen");
+					document.getElementById("meme28").style.display = "";
+				}
+				if (meme == 29)
+				{
+					document.getElementById("29").style.opacity = "100%";
+					localStorage.setItem("two-nine", "seen");
+					document.getElementById("meme29").style.display = "";
+				}
+				if (meme == 30)
+				{
+					document.getElementById("30").style.opacity = "100%";
+					localStorage.setItem("three-zero", "seen");
+					document.getElementById("meme30").style.display = "";
+				}
+				if (meme == 31)
+				{
+					document.getElementById("31").style.opacity = "100%";
+					localStorage.setItem("three-one", "seen");
+					document.getElementById("meme31").style.display = "";
+				}
+				if (meme == 32)
+				{
+					document.getElementById("32").style.opacity = "100%";
+					localStorage.setItem("three-two", "seen");
+					document.getElementById("meme32").style.display = "";
+				}
+				if (meme == 33)
+				{
+					document.getElementById("33").style.opacity = "100%";
+					localStorage.setItem("three-three", "seen");
+					document.getElementById("meme33").style.display = "";
+				}
+				if (meme == 34)
+				{
+					document.getElementById("34").style.opacity = "100%";
+					localStorage.setItem("three-four", "seen");
+					document.getElementById("meme34").style.display = "";
+				}
+				if (meme == 35)
+				{
+					document.getElementById("35").style.opacity = "100%";
+					localStorage.setItem("three-five", "seen");
+					document.getElementById("meme35").style.display = "";
+				}
+				if (meme == 36)
+				{
+					document.getElementById("36").style.opacity = "100%";
+					localStorage.setItem("three-six", "seen");
+					document.getElementById("meme36").style.display = "";
+				}
+				if (meme == 37)
+				{
+					document.getElementById("37").style.opacity = "100%";
+					localStorage.setItem("three-seven", "seen");
+					document.getElementById("meme37").style.display = "";
+				}
+				if (meme == 38)
+				{
+					document.getElementById("38").style.opacity = "100%";
+					localStorage.setItem("three-eight", "seen");
+					document.getElementById("meme38").style.display = "";
+				}
+				if (meme == 39)
+				{
+					document.getElementById("39").style.opacity = "100%";
+					localStorage.setItem("three-nine", "seen");
+					document.getElementById("meme39").style.display = "";
+				}
+				if (meme == 40)
+				{
+					document.getElementById("40").style.opacity = "100%";
+					localStorage.setItem("four-zero", "seen");
+					document.getElementById("meme40").style.display = "";
+				}
+				if (meme == 41)
+				{
+					document.getElementById("41").style.opacity = "100%";
+					localStorage.setItem("four-one", "seen");
+					document.getElementById("meme41").style.display = "";
+				}
+				if (meme == 42)
+				{
+					document.getElementById("42").style.opacity = "100%";
+					localStorage.setItem("four-two", "seen");
+					document.getElementById("meme42").style.display = "";
+				}
+				if (meme == 43)
+				{
+					document.getElementById("43").style.opacity = "100%";
+					localStorage.setItem("four-three", "seen");
+					document.getElementById("meme43").style.display = "";
+				}
+				if (meme == 44)
+				{
+					document.getElementById("44").style.opacity = "100%";
+					localStorage.setItem("four-four", "seen");
+					document.getElementById("meme44").style.display = "";
+				}
+				if (meme == 45)
+				{
+					document.getElementById("45").style.opacity = "100%";
+					localStorage.setItem("four-five", "seen");
+					document.getElementById("meme45").style.display = "";
+				}
+				if (meme == 46)
+				{
+					document.getElementById("46").style.opacity = "100%";
+					localStorage.setItem("four-six", "seen");
+					document.getElementById("meme46").style.display = "";
+				}
+				if (meme == 47)
+				{
+					document.getElementById("47").style.opacity = "100%";
+					localStorage.setItem("four-seven", "seen");
+					document.getElementById("meme47").style.display = "";
+				}
+				if (meme == 48)
+				{
+					document.getElementById("48").style.opacity = "100%";
+					localStorage.setItem("four-eight", "seen");
+					document.getElementById("meme48").style.display = "";
+				}
+				if (meme == 49)
+				{
+					document.getElementById("49").style.opacity = "100%";
+					localStorage.setItem("four-nine", "seen");
+					document.getElementById("meme49").style.display = "";
+				}
+				if (meme == 50)
+				{
+					document.getElementById("50").style.opacity = "100%";
+					localStorage.setItem("five-zero", "seen");
+					document.getElementById("meme50").style.display = "";
+				}
+				if (meme == 51)
+				{
+					document.getElementById("51").style.opacity = "100%";
+					localStorage.setItem("five-one", "seen");
+					document.getElementById("meme51").style.display = "";
+				}
+				if (meme == 52)
+				{
+					document.getElementById("52").style.opacity = "100%";
+					localStorage.setItem("five-two", "seen");
+					document.getElementById("meme52").style.display = "";
+				}
+				if (meme == 53)
+				{
+					document.getElementById("53").style.opacity = "100%";
+					localStorage.setItem("five-three", "seen");
+					document.getElementById("meme53").style.display = "";
+				}
+				if (meme == 54)
+				{
+					document.getElementById("54").style.opacity = "100%";
+					localStorage.setItem("five-four", "seen");
+					document.getElementById("meme54").style.display = "";
+				}
+				if (meme == 55)
+				{
+					document.getElementById("55").style.opacity = "100%";
+					localStorage.setItem("five-five", "seen");
+					document.getElementById("meme55").style.display = "";
+				}
+				if (meme == 56)
+				{
+					document.getElementById("56").style.opacity = "100%";
+					localStorage.setItem("five-six", "seen");
+					document.getElementById("meme56").style.display = "";
+				}
+				if (meme == 57)
+				{
+					document.getElementById("57").style.opacity = "100%";
+					localStorage.setItem("five-seven", "seen");
+					document.getElementById("meme57").style.display = "";
+				}
+				if (meme == 58)
+				{
+					document.getElementById("58").style.opacity = "100%";
+					localStorage.setItem("five-eight", "seen");
+					document.getElementById("meme58").style.display = "";
+				}
+				if (meme == 59)
+				{
+					document.getElementById("59").style.opacity = "100%";
+					localStorage.setItem("five-nine", "seen");
+					document.getElementById("meme59").style.display = "";
+				}
+				if (meme == 60)
+				{
+					document.getElementById("60").style.opacity = "100%";
+					localStorage.setItem("six-zero", "seen");
+					document.getElementById("meme60").style.display = "";
+				}
+				if (meme == 61)
+				{
+					document.getElementById("61").style.opacity = "100%";
+					localStorage.setItem("six-one", "seen");
+					document.getElementById("meme61").style.display = "";
+				}
+				if (meme == 62)
+				{
+					document.getElementById("62").style.opacity = "100%";
+					localStorage.setItem("six-two", "seen");
+					document.getElementById("meme62").style.display = "";
+				}
+				if (meme == 63)
+				{
+					document.getElementById("63").style.opacity = "100%";
+					localStorage.setItem("six-three", "seen");
+					document.getElementById("meme63").style.display = "";
+				}
+				if (meme == 64)
+				{
+					document.getElementById("64").style.opacity = "100%";
+					localStorage.setItem("six-four", "seen");
+					document.getElementById("meme64").style.display = "";
+				}
+				if (meme == 65)
+				{
+					document.getElementById("65").style.opacity = "100%";
+					localStorage.setItem("six-five", "seen");
+					document.getElementById("meme65").style.display = "";
+				}
+				if (meme == 66)
+				{
+					document.getElementById("66").style.opacity = "100%";
+					localStorage.setItem("six-six", "seen");
+					document.getElementById("meme66").style.display = "";
+				}
+			}
+			
+			
+			function Clear()
+			{
+				localStorage.clear();
+				location.reload();
+			}
+		</script>
+	</body>
+</html>
